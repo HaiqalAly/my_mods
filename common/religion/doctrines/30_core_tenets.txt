@@ -4137,6 +4137,10 @@
 		}
 	}
 
+	############################
+	# My Custom Tenets	#
+	############################
+
 	tenet_to_carve_life = {
 		icon = core_tenet_sanctity_of_nature
 
