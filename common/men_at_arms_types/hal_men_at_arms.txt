@@ -1,9 +1,9 @@
-wakka_ariki = {
+umekai = {
     type = archer_cavalry
-    damage = 32
+    damage = 30
     toughness = 15
     pursuit = 40
-    screen = 40
+    screen = 35
 
     terrain_bonus = {
         forest = { damage = 12 pursuit = 12 }
@@ -27,7 +27,7 @@ wakka_ariki = {
     }
 
     can_recruit = {
-        culture = { has_cultural_parameter = unlock_wakka_ariki_horse_archers_units }
+        culture = { has_cultural_parameter = unlock_umekai_horse_archers_units }
     }
 
     buy_cost = { gold = light_cavalry_recruitment_cost }
@@ -41,4 +41,38 @@ wakka_ariki = {
 		add = 100
 	}
 	icon = emishi_horse_archers
+}
+
+emushi_kur = {
+    type = heavy_infantry
+    damage = 35
+    toughness = 35
+    pursuit = 0
+    screen = 25
+
+    terrain_bonus = {
+        forest = { damage = 12 toughness = 10 }
+        taiga = { damage = 10 toughness = 8 }
+    }
+
+    display_terrain_effects = {
+        forest
+        taiga
+    }
+
+    counters = {
+        pikemen = 1
+        archer = 1
+        archer_cavalry = 1
+    }
+
+    buy_cost = { gold = samurai_recruitment_cost }
+	low_maintenance_cost = { gold = samurai_low_maint_cost }
+	high_maintenance_cost = { gold = samurai_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_expensive
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+
+    icon = heavy_infantry
 }

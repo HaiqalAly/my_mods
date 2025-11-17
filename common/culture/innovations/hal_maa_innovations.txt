@@ -1,0 +1,22 @@
+﻿@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+
+innovation_sword_people = {
+    skill = martial
+    group = culture_group_military
+    culture_era = culture_era_early_medieval
+    icon = @special_maa_01
+
+    potential = {
+        has_cultural_pillar = heritage_ainuic
+    }
+
+    character_modifier = {
+        prowess = 2
+    }
+
+    unlock_maa = emushi_kur
+
+    on_global_cultural_parameter_change = {
+        add_cultural_parameter = unlock_emushi_kur_units 
+    }
+}

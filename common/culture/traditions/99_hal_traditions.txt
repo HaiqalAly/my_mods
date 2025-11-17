@@ -16,7 +16,7 @@ traditions_guardian_of_kamuy = {
 	}
 
     parameters = {
-        unlock_wakka_ariki_horse_archers_units = yes
+        unlock_umekai_horse_archers_units = yes
         unlock_horse_pastures_building = yes
         harder_to_convert_county_culture = yes
     }
@@ -89,6 +89,12 @@ traditions_nature_gift = {
 		development_growth_factor = 0.25
 		monthly_income_mult = 0.05
 		cultural_head_fascination_mult = 0.1
+		forest_travel_danger = forest_medium_danger_reduction
+	}
+
+	province_modifier = {
+		forest_taxt_mult = 0.1
+		forest_construction_gold_cost = -0.1
 	}
 
 	cost = {
