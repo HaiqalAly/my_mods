@@ -1,0 +1,21 @@
+﻿@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+
+innovation_yukar = {
+    skill = learning
+    group = culture_group_civic
+    culture_era = culture_era_high_medieval
+    icon = @administration_3
+
+    potential = {
+        has_cultural_pillar = heritage_ainuic
+    }
+    
+    character_modifier = {
+		development_growth_factor = 0.1
+        cultural_head_fascination_mult = 0.1
+        owned_legend_spread_mult = 0.1
+	}
+
+    flag = global_regular
+	flag = high_medieval_era_regular
+}

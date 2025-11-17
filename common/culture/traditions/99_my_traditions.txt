@@ -1,3 +1,7 @@
+#######################
+# AINU TRADITIONS  #
+#######################
+
 traditions_guardian_of_kamuy = {
     category = regional
 
@@ -8,7 +12,6 @@ traditions_guardian_of_kamuy = {
 	}
 
 	is_shown = {
-		has_tgp_dlc_trigger = yes
 		has_cultural_pillar = heritage_ainuic
 	}
 

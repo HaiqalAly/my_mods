@@ -17,14 +17,7 @@ These mods aren’t meant to be fully balanced or serious projects, but I'm plan
 3. Copy folder to: `Documents/Paradox Interactive/Crusader Kings III/mod/`
 4. Enable mod in CK3 Launcher → Mods → Enable
 
-### ⚠️ Important
-When installing from the repo ZIP, **do not copy the entire repository folder** into the CK3 mod directory.  
-You can safely **ignore or delete** files such as:
-
-- `.gitignore`  
-- `LICENSE`  
-- `README.md`  
-- Any other non-mod folders or files  
+Note: Files such as .gitignore, LICENSE, and README.md are development files and should be ignored or safely deleted from the final install location. 
 
 These are development files and **not required** for the mod to work.
 
@@ -36,7 +29,7 @@ These are development files and **not required** for the mod to work.
 - More traditions  
 - More MAA variations  
 - Additional tenets  
-- New Innovations and more
+- New Cultural fascination (Innovations) and more
 
 ## 📝 Notes
 These mods are made for personal use and may not be balanced.  
