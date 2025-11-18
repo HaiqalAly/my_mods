@@ -3,7 +3,7 @@
 
 
 ## ℹ️ Description
-A small collection of my personal Crusader Kings III mods, currently featuring custom traditions, men-at-arms, and tenets. These mods aren’t meant to be fully balanced or serious projects, but I'm planning to expand them over time.
+A small collection of my personal Crusader Kings III mods, currently featuring custom traditions, men-at-arms, and more. These mods aren’t meant to be historically accurate neither perfectly balanced, but I'm planning to expand them over time.
 
 ## ✨ Features
 - Custom traditions  
@@ -12,7 +12,8 @@ A small collection of my personal Crusader Kings III mods, currently featuring c
 - Custom Innovation
 
 ## 👥 Culture Affected
-- Ainu
+- Ainuic
+- Balto Finnic
 
 ## 📥 Installation
 ### 1. Download & Extract
@@ -23,12 +24,15 @@ A small collection of my personal Crusader Kings III mods, currently featuring c
   - **`halve_flavor`** folder
 
 ### 2. Move to CK3 Mod Folder
-Place both items into: `Documents/Paradox Interactive/Crusader Kings III/mod/`
+Place both items into: `Documents/Paradox Interactive/Crusader Kings III/mod/` Create one if it doesn't exist.
+Your structure should more or less look like this:
 
-📁 mod
- ├─ halve.mod
- └─ 📁 halve_flavor
-    └─ 📁 common
+```text
+mod/
+├─ halve.mod
+└─ halve_flavor/
+   └─ common/
+```
 
 ### 3. Enable in Launcher
 - Open CK3 Launcher → **Mods**
@@ -38,13 +42,13 @@ Place both items into: `Documents/Paradox Interactive/Crusader Kings III/mod/`
 Done!
 
 
-Note: Files such as .gitignore, LICENSE, and README.md are development files and should be ignored or safely deleted from the final install location. 
+Note: Files such as `.gitignore`, `LICENSE`, and `README.md` are development files and should be ignored or safely deleted from the final install location. 
 
 These are development files and **not required** for the mod to work.
 
 ## 🔧 Compatibility
 - Works with the latest CK3 version  
-- Should be compatible with most mods that don’t modify the same traditions/MAA/tenets  
+- Should be compatible with most mods
 
 ## 📌 Planned Additions
 - More traditions  
@@ -53,6 +57,6 @@ These are development files and **not required** for the mod to work.
 - New Cultural fascination (Innovations) and more
 
 ## 📝 Notes
-These mods are made for personal use and may not be balanced.  
+These mods are made for personal use, it's not historically accurate and may not be mechanically balanced.  
 Feel free to use or modify them however you like.
 
