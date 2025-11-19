@@ -40,6 +40,7 @@ traditions_guardian_of_kamuy = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
+		}
 	}
 }
 
@@ -88,40 +89,80 @@ traditions_nature_gift = {
 # BALTO-FINNIC TRADITIONS  #
 #######################
 
-traditions_metsaühis = {
+traditions_runo_singing = {
 	category = regional
 	
 	layers = {
-		0 = steward
-		1 = mena
-		4 = forest.dds
+		0 = intrigue
+		1 = western
+		4 = musician.dds
 	}
 
 	is_shown = {
-		has_cultural_pillar = balto_finnic
+		has_cultural_pillar = heritage_balto_finnic
+		has_ep1_court_positions_dlc_trigger = yes
 	}
-
+	
 	parameters = {
-		harder_to_convert_county_culture = yes
+		gregarious_trait_gives_bonuses = yes
+		characters_are_better_court_musicians = yes
+		better_court_musicians = yes
 	}
 
 	character_modifier = {
-		taiga_development_growth_factor = 0.15
-		taiga_supply_limit_mult = 0.25
-		taiga_travel_danger = taiga_high_danger_reduction
-		different_faith_opinion = -10
-		different_culture_opinion = -10
+		owned_hostile_scheme_success_chance_add = 5
+		same_culture_opinion = 5
+		owned_legend_spread_mult = 0.1
 	}
 
-	province_modifier = {
-		taiga_levy_size = 0.1
+	county_modifier = {
+		county_opinion_add = 5
 	}
 
-	prestige = {
+	cost = {
+		prestige = {
 			add = {
 				value = tradition_double_base_cost
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
+		}
+	}
+}
+
+traditions_karhunkansa = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = indian
+		4 = battle.dds
+	}
+	
+	is_shown = {
+		has_cultural_pillar = heritage_balto_finnic
+	}
+
+	parameters = {
+		unlock_karhunkansa_pike_units = yes
+		expensive_convert_to_local_culture = yes
+		harder_to_hybridize = yes
+		less_likely_to_culture_convert = yes
+	}
+
+	character_modifier = {
+		prowess = 2
+		controlled_province_advantage = 5
+		monthly_county_control_growth_add = 0.3
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_double_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
 	}
 }
